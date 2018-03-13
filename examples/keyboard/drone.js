@@ -53,6 +53,9 @@ process.stdin.on('keypress', (ch, key) => {
     case 't':
         drone.takeoffOrLand();
         break;
+    case 'l':
+        drone.land();
+        break;
     case 'f':
         drone.trim();
         break;
